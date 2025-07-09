@@ -7,43 +7,48 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6e3;
     }
     header {
-      background: linear-gradient(to right, red, blue);
-      color: white;
-      padding: 30px;
+      background-color: #bfa533;
+      color: black;
       text-align: center;
+      padding: 40px 20px;
     }
-    section {
-      padding: 60px 20px;
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
     }
     .part {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-      margin-bottom: 60px;
+      background-color: #fff8dc;
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      text-align: center;
+    .image-box {
+      width: 60%;
+      border: 3px solid black;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    .card img {
+    .image-box img {
       width: 100%;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 15px;
+      height: auto;
+      display: block;
     }
     footer {
-      background: #222;
+      background-color: #222;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 25px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -55,99 +60,31 @@
   </header>
 
   <section class="part">
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?office" alt="Image 1">
-      <h3>Service 1</h3>
-      <p>Descriptive text about the service offered by CS Services.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?teamwork" alt="Image 2">
-      <h3>Service 2</h3>
-      <p>Professional and quality support tailored for our clients.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?technology" alt="Image 3">
-      <h3>Service 3</h3>
-      <p>Smart solutions powered by technology and innovation.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?success" alt="Image 4">
-      <h3>Service 4</h3>
-      <p>Your success is our mission. Reliable and dedicated service.</p>
+    <div class="image-box">
+      <img src="https://source.unsplash.com/1200x400/?office" alt="CS Services Image 1">
     </div>
   </section>
 
   <section class="part">
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?consulting" alt="Image 5">
-      <h3>Consulting</h3>
-      <p>Expert advice to help you grow your business.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?customer" alt="Image 6">
-      <h3>Support</h3>
-      <p>24/7 customer support and satisfaction guaranteed.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?strategy" alt="Image 7">
-      <h3>Strategy</h3>
-      <p>Business strategy services tailored to your goals.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?planning" alt="Image 8">
-      <h3>Planning</h3>
-      <p>Meticulous planning for flawless execution.</p>
+    <div class="image-box">
+      <img src="https://source.unsplash.com/1200x400/?teamwork" alt="CS Services Image 2">
     </div>
   </section>
 
   <section class="part">
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?cloud" alt="Image 9">
-      <h3>Cloud Services</h3>
-      <p>Secure and scalable cloud solutions for businesses.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?security" alt="Image 10">
-      <h3>Security</h3>
-      <p>Top-tier cybersecurity services to protect your data.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?data" alt="Image 11">
-      <h3>Data Management</h3>
-      <p>Organize and harness your data effectively.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?network" alt="Image 12">
-      <h3>Networking</h3>
-      <p>Build strong and reliable digital networks.</p>
+    <div class="image-box">
+      <img src="https://source.unsplash.com/1200x400/?technology" alt="CS Services Image 3">
     </div>
   </section>
 
   <section class="part">
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?innovation" alt="Image 13">
-      <h3>Innovation</h3>
-      <p>We bring innovative ideas to life for your business.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?growth" alt="Image 14">
-      <h3>Growth</h3>
-      <p>Helping your company grow with smart solutions.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?partnership" alt="Image 15">
-      <h3>Partnership</h3>
-      <p>Collaborate with confidence for mutual success.</p>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?future" alt="Image 16">
-      <h3>Future-Ready</h3>
-      <p>Preparing your business for tomorrow, today.</p>
+    <div class="image-box">
+      <img src="https://source.unsplash.com/1200x400/?business" alt="CS Services Image 4">
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 CS SERVICES - All rights reserved</p>
+    &copy; 2025 CS SERVICES. All rights reserved.
   </footer>
 
 </body>
