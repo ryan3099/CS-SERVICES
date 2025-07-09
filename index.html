@@ -28,8 +28,9 @@
       background-color: #fff8dc;
       padding: 50px 20px;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      text-align: center;
     }
     .image-box {
       width: 60%;
@@ -37,11 +38,25 @@
       border-radius: 12px;
       overflow: hidden;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
     }
     .image-box img {
       width: 100%;
       height: auto;
       display: block;
+    }
+    .description {
+      font-size: 16px;
+      color: #444;
+      max-width: 60%;
+      margin-bottom: 20px;
+    }
+    .map {
+      width: 60%;
+      height: 300px;
+      border: 3px solid black;
+      border-radius: 12px;
+      overflow: hidden;
     }
     footer {
       background-color: #222;
@@ -61,25 +76,53 @@
 
   <section class="part">
     <div class="image-box">
-      <img src="https://source.unsplash.com/1200x400/?office" alt="CS Services Image 1">
+      <img src="https://source.unsplash.com/1200x400/?office" alt="Image 1">
+    </div>
+    <div class="description">We provide reliable office solutions tailored to your business needs.</div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Rue+1+Hay+Abbes+Lamsaadi+Meknes+Morocco&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
     </div>
   </section>
 
   <section class="part">
     <div class="image-box">
-      <img src="https://source.unsplash.com/1200x400/?teamwork" alt="CS Services Image 2">
+      <img src="https://source.unsplash.com/1200x400/?teamwork" alt="Image 2">
+    </div>
+    <div class="description">A committed team that ensures collaboration and client satisfaction.</div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Rue+1+Hay+Abbes+Lamsaadi+Meknes+Morocco&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
     </div>
   </section>
 
   <section class="part">
     <div class="image-box">
-      <img src="https://source.unsplash.com/1200x400/?technology" alt="CS Services Image 3">
+      <img src="https://source.unsplash.com/1200x400/?technology" alt="Image 3">
+    </div>
+    <div class="description">Innovative technologies to help you grow in a competitive world.</div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Rue+1+Hay+Abbes+Lamsaadi+Meknes+Morocco&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
     </div>
   </section>
 
   <section class="part">
     <div class="image-box">
-      <img src="https://source.unsplash.com/1200x400/?business" alt="CS Services Image 4">
+      <img src="https://source.unsplash.com/1200x400/?business" alt="Image 4">
+    </div>
+    <div class="description">We help businesses succeed with personalized and strategic support.</div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Rue+1+Hay+Abbes+Lamsaadi+Meknes+Morocco&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
     </div>
   </section>
 
